@@ -1,0 +1,28 @@
+.container{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .content{
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+}
+
+h2{
+ background-color: black;
+ color: blue;
+ width: 20%;
+ text-shadow: 2px 2px 8px #FF0000;
+}
+
+p{
+  text-shadow: 2px 2px 8px #ff0000;
+  font-size: 20px;
+   }
