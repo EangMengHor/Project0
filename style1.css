@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+  background-color: grey;
+}
+
+h2{
+  margin: 20px;
+  bottom: 50px;
+
+}
+
+li{
+  font-size: 20px;
+  font-family: monospace;
+  text-overflow: clip;
+
+}
+
+.Header{
+  font-size: 40px;
+  color: green;
+  padding: 10px;
+  margin:10px;
+}
+
+img{
+  margin:20px;
+}
