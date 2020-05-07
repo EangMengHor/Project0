@@ -1,0 +1,50 @@
+.container{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .content{
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+}
+@media screen and (min-width: 500px) {
+  .container .content{
+    width:96%;
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .container .content{
+    width: 93%;
+    font-size: 8px;
+    font-size: 10px;
+
+  }
+}
+
+p{
+  text-shadow: 2px 2px 8px #ff0000;
+  font-size: 20px;
+}
+h2.example{
+  background-color: black;
+  color: blue;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+@media screen and (min-width: 500px) {
+  h2.example{
+    font-size: 40px;
+    width:100%;
+  }
+}
+@media screen and (max-width: 499px) {
+  h2.example{
+    font-size: 25px;
+    width:100%;
+  }
+}
